@@ -36,7 +36,7 @@ class Program
 		sh_process.StartInfo.FileName = "/bin/bash";
 
 		string video_url = args[args.Length - 1];
-		sh_process.StartInfo.Arguments = "-c \"vrc-video-url-handler.sh " + video_url + "\"";
+		sh_process.StartInfo.Arguments = "-c \"./vrc-video-url-handler.sh " + video_url + "\"";
 
 		sh_process.Start();
 			
@@ -61,6 +61,8 @@ class Program
 		File.AppendAllText("yt-dlp.log", "returned: '"+ raw_url + "'\n");
 #endif
 
-#endif // RETURN_URL
+#else // !RETURN_URL
+		Console.Write("no data");
+#endif
 	}
 }}

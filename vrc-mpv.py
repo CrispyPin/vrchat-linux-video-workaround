@@ -17,6 +17,7 @@ def get_url():
 			url = s
 
 def play():
+	print(f"playing {url}")
 	os.system(f"mpv {url}")
 
 def delay():
