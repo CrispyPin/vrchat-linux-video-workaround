@@ -15,5 +15,5 @@ requires `mono`
 `make && make install`
 
 ## Disclaimer
-This software is not in violation of the VRChat terms of service, as it does not touch any game files or impact the running game. It is a replacement for yt-dlp (which VRChat fetches from github), and it's only function is to extract the requested video urls. This information is also available in the VRChat log files but is not as convenient.
+This software is not in violation of the VRChat terms of service, as it does not touch any game files or impact the running game. It is a replacement for yt-dlp (which VRChat fetches from github), and its only function is to extract the requested video URLs. This information is also available in the VRChat log files but is not as convenient.
 
